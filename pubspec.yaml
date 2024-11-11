@@ -1,0 +1,38 @@
+name: flutter_bioskop
+description: "Bioskop Nonton ID: Pesan Tiket Bioskop menjadi lebih mudah."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.2.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.9
+  carousel_slider: ^5.0.0
+  flutter_rating_bar: ^4.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/profile/
+    - assets/images/dashboard/
+    - assets/images/content/
+    - assets/svg/
+    - assets/svg/profile/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
